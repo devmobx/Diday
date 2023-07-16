@@ -1,6 +1,7 @@
 import { View, Text } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import { useState } from 'react';
+import { EyeBlind, EyeVisible } from '@/components/graphics/icons';
 import tailwindConfig from '@/theme';
 
 const theme = tailwindConfig.theme.colors;
@@ -27,13 +28,13 @@ export default function Input({
             return {
               right: hidePassword ? (
                 <TextInput.Icon
+                  icon={() => <EyeBlind className='fill-second w-[25px] h-[25px]' />}
                   onPress={() => setHidePassword(false)}
-                  icon='eye'
                 />
               ) : (
                 <TextInput.Icon
+                  icon={() => <EyeVisible className='fill-second w-[25px] h-[25px]' />}
                   onPress={() => setHidePassword(true)}
-                  icon='eye-off'
                 />
               ),
               secureTextEntry: hidePassword,

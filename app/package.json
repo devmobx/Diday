@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "link-assets": "react-native-asset",
     "reactotron": "adb reverse tcp:9090 tcp:9090",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -23,15 +24,15 @@
     "react-native": "0.72.3",
     "react-native-eject": "^0.2.0",
     "react-native-paper": "^5.8.0",
-    "react-native-reanimated": "^3.1.0",
+    "react-native-reanimated": "^3.3.0",
     "react-native-safe-area-context": "^4.5.2",
     "react-native-screens": "^3.20.0",
     "react-native-svg": "^13.9.0",
-    "react-native-vector-icons": "^9.2.0",
     "react-redux": "^8.0.5",
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {
+    "react-native-asset": "^2.1.1",
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
