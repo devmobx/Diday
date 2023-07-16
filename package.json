@@ -1,9 +1,9 @@
 {
-  "name": "open-chat",
+  "name": "diday",
   "version": "1.0.0",
-  "description": "Open Chat monorepo",
-  "repository": "https://github.com/MRcraigchick/open-chat.git",
-  "author": "Craig Chick",
+  "description": "Diday monorepo",
+  "repository": "https://github.com/localtoast3000/Diday.git",
+  "author": "Diday dev",
   "private": true,
   "scripts": {
     "app": "yarn --cwd app",
